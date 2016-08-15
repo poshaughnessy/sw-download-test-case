@@ -8,7 +8,9 @@
   </head>
   <body>
     <h1>Service workers download test case</h1>
-    <p><a href="test">This link does *not* have a download attribute</a></p>
-    <p><a href="/test" download="test.txt">This link *does* so it should spawn a download</a></p>
+    <p><a href="/test">This link does *not* have a download attribute - it opens OK</a></p>
+    <p><a href="/test" download="test.txt">This link *does* so it should spawn a download, but it fails</a></p>
+    <p><a href="http://www.cl.cam.ac.uk/~mgk25/ucs/examples/TeX.txt" download="test.txt">Here's an external link (not served by service worker), just for sanity checking</a></p>
+    <p><a href="/test-html" download="test.html">This one links to HTML instead of text, from an example from Jake</a></p>
   </body>
 </html>
