@@ -3,7 +3,7 @@
 (You should be able to run with any static web server - I've just been using 
 `python -m SimpleHTTPServer`).
 
-The link with the 'download' attribute fails to download.
+The links with the 'download' attributes served by the SW fail to download.
 
 Screenshot:
 
