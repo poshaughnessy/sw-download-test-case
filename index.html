@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Service Worker download test case</title>
+    <script>
+      navigator.serviceWorker.register('/sw.js');
+    </script>
+  </head>
+  <body>
+    <h1>Service workers download test case</h1>
+    <a href="test">This link does *not* have a download attribute</a>
+    <a href="/test" download="test.txt">This link *does* so it should spawn a download</a>
+  </body>
+</html>
