@@ -7,11 +7,13 @@ The links with the 'download' attributes served by the SW fail to download.
 
 ## Screenshot
 
+(Note the 'Failed - No File')
+
 <img src="screenshot.png?raw=true" alt="Screenshot" width="400px"/>
 
 ## Browsers tested
  
-* Chrome desktop v51, v52 and v54
+* Chrome desktop v51 to v54
 * Samsung Internet for Android v4.0
 
 ## Link to bug report
